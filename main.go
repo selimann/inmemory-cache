@@ -7,8 +7,6 @@ import (
 
 type InMemoryCache struct {
 	shards []Shard
-	//data   map[string]string
-	//mu     sync.RWMutex
 }
 type Shard struct {
 	data map[string]string
